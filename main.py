@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-from parse_logs import parse_logs
-from generate_rule import generate_server_rule
+from modules.parse_logs import parse_logs
+from modules.generate_rule import generate_server_rule
 
 # Set Streamlit page configuration to wide mode
 st.set_page_config(layout="wide")
